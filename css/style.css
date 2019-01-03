@@ -1,40 +1,55 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto Mono:400,700';
 
+:root {
+    --Alter_Font: 200px;
+
+  }
+
+@media (max-width: 350px) {
+    :root {
+      
+      /* add code below */
+     --Alter_Font: 300px;
+       
+      /* add code above */
+      
+    }
+}
+
 html,body{
   font-family: 'Roboto Mono';
 }
 
  
-header {
-  background-color: white;
+#pageheader {
   font-size: 40px;
-  padding-right: 20px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  text-align: center;
-   
+  padding-left: px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+
 }
 
  hr { 
-   
+   display: block;
    margin-top: 2px; 
-   margin-bottom: 5px;
-   width: 80%;
-   
+   margin-bottom: 0px;
+   border-color: black;
 }
 
 
 nav {
-    
     display: inline-block;
     font-size: 15px;
-
+   
 }
 
 #container {
     max-width: 790px;
-    margin: 50px auto;
+    margin: auto;
     padding: 1.5em;
+
 }
 
 #content{
@@ -44,11 +59,13 @@ nav {
     padding: 1.5em;
     border: 1px solid black;
     overflow-wrap: break-word;
+ 
   
 }
 
 #title{
   
   font-weight: bold;
-  
+  padding-bottom: 15px;
+  padding-left: 1px;
 }
