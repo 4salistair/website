@@ -1,29 +1,32 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto Mono:400,700';
 
-:root {
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+/* :root {
     --Alter_Font: 200px;
 
   }
 
-@media (max-width: 800px) {
-    :root {
+@media (max-width: 800px) { */
+
+:root {
       
       /* add code below */
-     --Alter_Font: 600px;
-     --Alter_FontColor: red;
+    --Alter_Font: 60px;
+    --Alter_FontColor: black;
       /* add code above */
       
-    }
-}
+    } 
+
 
 html,body{
-  font-family: 'Roboto Mono';
+ 
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 
 #pageheader {
-  font-size: var(--Alter_Font);
-  font-color: var(--Alter_FontColor);
+  font-size: 75px;/*var(--Alter_Font);*/
+  color: var(--Alter_FontColor);
   padding-bottom: 10px;
   padding-left: px;
   position: sticky;
@@ -34,15 +37,15 @@ html,body{
 
  hr { 
    display: block;
-   margin-top: 2px; 
-   margin-bottom: 0px;
+   margin-top: 10px; 
+   margin-bottom: 10px;
    border-color: black;
 }
 
 
 nav {
     display: inline-block;
-    font-size: 15px;
+    font-size: 30px;
    
 }
 
@@ -55,8 +58,7 @@ nav {
 
 #content{
    
-    max-width: 750px;
-    margin: 10px auto;
+    max-width: 100%;
     padding: 1.5em;
     border: 1px solid black;
     overflow-wrap: break-word;
