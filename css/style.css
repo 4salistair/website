@@ -10,7 +10,7 @@
       
       /* add code below */
      --Alter_Font: 600px;
-       
+     --Alter_FontColor: red;
       /* add code above */
       
     }
@@ -23,6 +23,7 @@ html,body{
  
 #pageheader {
   font-size: var(--Alter_Font);
+  font-color: var(--Alter_FontColor);
   padding-bottom: 10px;
   padding-left: px;
   position: sticky;
