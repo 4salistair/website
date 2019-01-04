@@ -20,13 +20,6 @@ html,body{
   font-family: 'Roboto Mono';
 }
 
-body {
-  background-color: tan;
-}
-
-
-
-
 
 #pageheader {
   font-size: var(--Alter_Font);
