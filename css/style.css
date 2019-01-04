@@ -10,7 +10,7 @@
 
 
 
-@media (min-width: 375px) { 
+@media (max-width: 375px) { 
 
 
 :root {
@@ -28,7 +28,7 @@
 
 html,body{
  
-  font-family: 'IBM Plex Mono', monospace;*/
+  font-family: 'IBM Plex Mono', monospace;
   /*font-family: 'B612 Mono', monospace; */
   /*font-family: 'Bangers', cursive; */
 }
