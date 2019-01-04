@@ -9,43 +9,46 @@
 @import url('https://fonts.googleapis.com/css?family=B612+Mono|Bangers|IBM+Plex+Mono');
 
 
-/* :root {
-    --Alter_Font: 200px;
+:root {
+    --Alter_Font: 80px;
 
-  }
+     }
 
-@media (max-width: 800px) { */
+@media (max-width: 800px) { 
+
 
 :root {
       
       /* add code below */
-    --Alter_Font: 60px;
-    --Alter_FontColor: black;
+    --Alter_Font: 75px;
+    --Alter_FontColor: red;
       /* add code above */
       
     } 
 
+  }
+
 
 html,body{
  
-  font-family: 'IBM Plex Mono', monospace;
-  /*font-family: 'B612 Mono', monospace;
-  font-family: 'Bangers', cursive; */
+  font-family: 'IBM Plex Mono', monospace;*/
+  /*font-family: 'B612 Mono', monospace; */
+  /*font-family: 'Bangers', cursive; */
 }
 
 
 #pageheader {
 
-
-  font-size: 75px;/*var(--Alter_Font);*/
-  color: var(--Alter_FontColor);
+  color:var(--Alter_FontColor); 
+  font-size: var(--Alter_Font);
   padding-bottom: 10px;
-  padding-left: px;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: white; 
+  width:100%;
 
 }
+
 
  hr { 
    display: block;
