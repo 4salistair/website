@@ -9,19 +9,16 @@
 @import url('https://fonts.googleapis.com/css?family=B612+Mono|Bangers|IBM+Plex+Mono');
 
 
-:root {
-    --Alter_Font: 80px;
 
-     }
-
-@media (max-width: 800px) { 
+@media (max-width: 375px) { 
 
 
 :root {
       
-      /* add code below */
-    --Alter_Font: 75px;
-    --Alter_FontColor: red;
+      /* add code below  --Alter_Font: 80px;*/
+      
+      --Alter_FontColor: red;
+    
       /* add code above */
       
     } 
@@ -39,7 +36,7 @@ html,body{
 
 #pageheader {
 
-  color:var(--Alter_FontColor); 
+  color: red; 
   font-size: var(--Alter_Font);
   padding-bottom: 10px;
   position: sticky;
