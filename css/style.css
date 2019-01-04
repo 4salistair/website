@@ -5,11 +5,11 @@
 
   }
 
-@media (max-width: 350px) {
+@media (max-width: 800px) {
     :root {
       
       /* add code below */
-     --Alter_Font: 300px;
+     --Alter_Font: 800px;
        
       /* add code above */
       
@@ -22,7 +22,7 @@ html,body{
 
  
 #pageheader {
-  font-size: 40px;
+  font-size: var(--Alter_Font);
   padding-bottom: 10px;
   padding-left: px;
   position: sticky;
