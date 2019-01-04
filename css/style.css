@@ -36,7 +36,7 @@ html,body{
 
 #pageheader {
 
-  color: red; 
+  color: var(--Alter_FontColor); 
   font-size: var(--Alter_Font);
   padding-bottom: 10px;
   position: sticky;
