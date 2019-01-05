@@ -10,6 +10,23 @@
 
 
 
+
+
+
+:root {
+      
+  /* add code below  --Alter_Font: 80px;*/
+  
+  --Alter_FontColor: red;
+
+
+  /* --Alter_Font: 80px; */  
+  /* add code above */
+  
+} 
+
+}
+
 @media (min-width: 375px) { 
 
 
@@ -18,7 +35,9 @@
       /* add code below  --Alter_Font: 80px;*/
       
       --Alter_FontColor: blue;
-      --Alter_Font: 80px;  
+
+
+      /* --Alter_Font: 80px; */  
       /* add code above */
       
     } 
@@ -37,7 +56,9 @@ html,body{
 #pageheader {
 
   color: var(--Alter_FontColor); 
-  font-size: var(--Alter_Font);
+
+  /* font-size: var(--Alter_Font); */
+  
   padding-bottom: 10px;
   position: sticky;
   top: 0;
