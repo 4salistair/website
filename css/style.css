@@ -17,12 +17,28 @@
   /* add code below  --*/
   
   
-  --Alter_Font: 80px;
+  --Alter_Font: 160px;
   --Alter_FontColor: red;
+
 
 } 
 
+@media (min-width : 376px)
+                        {
 
+:root {
+      
+      /* add code below  --   */
+       --Alter_Font: 100px;
+      --Alter_FontColor: green;
+
+
+      /* --Alter_Font: 80px; */  
+      /* add code above */
+      
+    } 
+
+  } 
 
 
 
