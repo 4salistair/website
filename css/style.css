@@ -12,29 +12,26 @@
 
 
 
-
 :root {
       
-  /* add code below  --Alter_Font: 80px;*/
+  /* add code below  --*/
   
+  
+  --Alter_Font: 80px;
   --Alter_FontColor: red;
 
-
-  /* --Alter_Font: 80px; */  
-  /* add code above */
-  
 } 
 
-}
 
-@media (min-width: 375px) { 
 
+@media (width : 375px)
+                        {
 
 :root {
       
-      /* add code below  --Alter_Font: 80px;*/
-      
-      --Alter_FontColor: blue;
+      /* add code below  --   */
+       --Alter_Font: 70px;
+      --Alter_FontColor: green;
 
 
       /* --Alter_Font: 80px; */  
@@ -56,9 +53,7 @@ html,body{
 #pageheader {
 
   color: var(--Alter_FontColor); 
-
-  /* font-size: var(--Alter_Font); */
-  
+  font-size: var(--Alter_Font); 
   padding-bottom: 10px;
   position: sticky;
   top: 0;
