@@ -13,10 +13,7 @@
 
 
 :root {
-      
-  /* add code below  --*/
-  
-  
+         
   --Alter_Font: 70px;
   --Alter_NavBar_Font: 30px;
   --Aliter_Content_Font: 20px;
@@ -24,7 +21,6 @@
 
 } 
 @media  (max-width: 768px)  {
-
 
   :root {  
   
@@ -65,16 +61,12 @@ html,body{
   position: sticky;
   top: 0;
 
-  
   margin: 2%;
   background-color: white;
 
   font-size: var(--Alter_Font);
   color: var(--Alter_FontColor); 
   
-}
-
-
  hr { 
    display: block;
    margin-top: 1%; 
