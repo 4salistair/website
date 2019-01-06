@@ -55,6 +55,7 @@ html,body{
 
 #pageheader {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   margin: 2%;
   background-color: white;
