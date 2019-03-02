@@ -1,0 +1,135 @@
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+@keyframes example {
+  from {color: whitesmoke;}
+  to {color: rebeccapurple;}
+}
+
+@-webkit-keyframes example {
+  from {color: whitesmoke;}
+  to {color: rebeccapurple;}
+}
+
+
+@keyframes change {
+  from {background-color: white;}
+  to {background-color: red;}
+}
+
+@-webkit-keyframes change {
+  from {background-color: white;}
+  to {background-color: red;}
+}
+
+
+html, body{
+  
+  background-color:#fff;
+  color: white;
+ 
+}
+
+
+
+#title{
+    font-family: 'Ubuntu', sans-serif;  
+    font-weight: bold;
+    font-size: 70px;
+
+    text-align: center;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 1s;
+
+}
+
+
+#titledelay2{
+  font-family: 'Ubuntu', sans-serif;  
+  font-weight: bold;
+  font-size: 70px;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  text-align: left;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 2s;
+
+}
+
+#titledelay3{
+  font-family: 'Ubuntu', sans-serif;  
+  font-weight: bold;
+  font-size: 70px;
+  padding-bottom: 20px;
+  padding-left: 25%;
+  text-align: left;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 5s;
+
+}
+
+
+
+.heart {
+  animation: heartbeat 1s infinite;
+  animation-delay: 3s;
+  background-color:  red;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px;
+  position: relative;
+  top: 78%;
+  transform: rotate(-45deg);
+  position: absolute; 
+  left: 40%; top: <div id="titledelay2"><div id="titledelay2">%;
+  width: 50px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.heart:before {
+  top: -25px;
+  left: 0;
+}
+
+.heart:after {
+  left: 25px;
+  top: 0;
+}
+
+@keyframes heartbeat
+{
+  50%
+  {
+    transform: scale( 1 )
+      rotate(-45deg);    
+  }
+  70%
+  {
+    transform: scale( 1.25 )
+      rotate(-45deg);  
+  }
+  80%
+  {
+    transform: scale( 1.5 )
+      rotate(-45deg);
+  }
+}
+

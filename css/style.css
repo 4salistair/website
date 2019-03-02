@@ -43,6 +43,13 @@ html,body{
 }
 
 
+.flexbox {
+
+display: flex; 
+
+}
+
+
 #headertest {
   position: -webkit-sticky;
   position: sticky;
@@ -93,7 +100,7 @@ nav {
 }
 
 #title{
-  
+
   font-weight: bold;
   font-size: var(--Aliter_Content_Font);
   padding-bottom: 2px;
